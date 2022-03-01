@@ -28,10 +28,27 @@
 }
 
 .link {
-  color: white;
-  text-decoration: none;
+  color: teal;
+  text-decoration: underline;
   font-size: calc(10px + 0.8vmin);
   font-weight: 700;
+  display: flex;
+  pointer-events: stroke;
+  margin-top: 0.5rem;
+}
+
+.app-content{
+  background-color: gainsboro;   
+  height: 100vh;
+}
+
+.content{
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  justify-content: left;
+  align-items: flex-start;
+  padding: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
